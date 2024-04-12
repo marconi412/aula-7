@@ -3,7 +3,7 @@ atvd 1
 condicao1= (input("sol"))
 condicao2= (input("dinheiro"))
 
-if (condicao1 and condicao2):
+if (condicao1== "sol" and condicao2== "dinheiro"):
     print("deu praia")
 else:
     print("liso dorme")
